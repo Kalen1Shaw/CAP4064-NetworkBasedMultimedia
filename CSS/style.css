@@ -75,18 +75,18 @@ footer p a
     text-decoration: none;
 }
 
-#contact
+#Contact
 {
     text-align: center;
 }
 
-#contact a
+#Contact a
 {
     color: #666600;
     text-decoration: none;
 }
 
-#weights, #cardio, #training
+#Weights, #Cardio, #Training
 {
     width: 29%;
     float: left;
@@ -222,6 +222,59 @@ footer p a
         width: 600px;
         height: 450px;
     }
-    
-
 }
+
+    @media screen and (min-width: 769px) {
+         header{
+            width: 25%;
+            float: left;
+            padding-bottom: 0;
+        }
+
+        /*Desktop Viewport: Style Rules for nav area*/
+        nav{
+            float: right;
+            width: 65%;
+            margin: 4em 1em 0 0;
+        }
+        nav ul{
+            text-align: right;
+
+        }
+        nav li{
+            border: none;
+        }
+        nav li a{
+            padding: 0.5em 1em;
+        }
+        /*Desktop Viewport: Style Rules for main content*/
+        main{
+            clear: left;
+        }
+        main h1{
+            font-size: 1.8em;
+        }
+        #weights, #cardio, #training{
+            width: 29%;
+            float: left;
+            margin: 0.2%;
+        }
+        #exercise{
+            clear: left;
+        }
+        
+        nav li a:hover{
+            color: #000;
+            background-color: #fff;
+        }
+        #Exercise{
+            clear: left;
+            border-top: 1px solid #000 ;
+            border-bottom: 1px solid #000;
+            background-color: #f2f2f2;
+            padding: 1% 2%;
+            background: linear-gradient(to right, #ccc, #fff);
+           }
+    }
+
+
