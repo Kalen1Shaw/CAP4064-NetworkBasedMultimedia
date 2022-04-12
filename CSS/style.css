@@ -214,4 +214,8 @@ footer p a
             padding: 0.5% 2% 2% 0%;
     }
 
+    .tel-num{
+        font-size: 1.25em;
+    }
+
 }
