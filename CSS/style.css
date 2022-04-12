@@ -173,11 +173,18 @@ li:first-child{
         display: none;
     }
 
-    /*Table Viewport: Style rule of header*/
+    /*Tablet Viewport: Style rule of header*/
 
     header{
      position: static; 
      padding: 2%;  
+    }
+
+    /* Tablet Viewport: Style rule for nav area*/
+
+    nav li{
+        border-top: none;
+        display: inline-block;
     }
 
 }
