@@ -160,3 +160,24 @@ li:first-child{
     margin-left: 10%;
     
 }
+
+/* Media Query for Tablet Viewport*/ 
+
+@media screen and (min-width: 630px){
+
+    .tablet-desktop{
+        display: block;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    /*Table Viewport: Style rule of header*/
+
+    header{
+     position: static; 
+     padding: 2%;  
+    }
+
+}
