@@ -185,6 +185,7 @@ li:first-child{
     nav li{
         border-top: none;
         display: inline-block;
+        border-right: 1px solid #fff;
     }
 
 }
